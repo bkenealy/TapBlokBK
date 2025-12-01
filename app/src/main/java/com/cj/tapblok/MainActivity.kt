@@ -249,7 +249,7 @@ fun MainScreen() {
                 if (isServiceRunning) {
                     Spacer(modifier = Modifier.height(32.dp))
                     Text(
-                        text = "Press and hold for 90 seconds to force stop",
+                        text = "Press and hold for 2 Minutes to force stop",
                         style = MaterialTheme.typography.bodySmall,
                         textAlign = TextAlign.Center
                     )
