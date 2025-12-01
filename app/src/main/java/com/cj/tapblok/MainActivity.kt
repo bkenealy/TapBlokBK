@@ -138,7 +138,7 @@ fun MainScreen() {
     LaunchedEffect(isHolding) {
         if (isHolding) {
             val startTime = System.currentTimeMillis()
-            val duration = 90000L // 90 seconds
+            val duration = 120000L // 120 seconds
             while (isHolding && System.currentTimeMillis() - startTime < duration) {
                 holdProgress = (System.currentTimeMillis() - startTime) / duration.toFloat()
                 delay(50)
